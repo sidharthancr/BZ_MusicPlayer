@@ -1,25 +1,35 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-Software requirement For this Project:
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-Java 7,
-Eclipse,
-Maven,
-Tomcat 7+
-Mongodb 2.6.0+
+# BZ MUSICPLAYER
+BZ Musicplayer is a web application, user can login to player from anywhere in network and listen music.
+
+# Features
+* User Authentication
+* Can able to sort songs by Title,Rating,Album
+* The player resumes from last played song. It stores last played  info for an user.
+* Its best viewed in chrome browser.
+
+# Software requirement For this Project:
+ - Java 7
+ - Eclipse
+ - Maven
+ - Tomcat 7+
+ - Mongodb 2.6.0+
 
 
-%%%%%%%%%%%%%%%%%%%%%%%%
-Steps to run Musicplayer
-%%%%%%%%%%%%%%%%%%%%%%%%
+# Steps to run Musicplayer
 
-Step 1:Clone project.
-Step 2:Import the project in eclipse and update maven dependencies.
-Step 3:Configure tomcat server to run the web application.
-Step 4:Download and configure mongodb in port 27017.[If you want some custom port or remote server, change the dbHosts value in DatabaseUtil.java.]
-Step 5:Import song.json in song collection and musicplayer db which is present in Docs folder.
-Step 6:Import user.json in user collection and musicplayer db which is present in Docs folder.
-*Note: Command to import date: mongodbimpoort -d musicplayer -c user/song --file user/song.json*
-Step 7:Start Tomcat server and open http://hostname:port/musicplayer  in browser.
 
-@@@@@@@@@@@@NOTE:Default username and passsowrd is "sid"@@@@@@@@@@@@@
+  - Clone project.
+  - Import the project in eclipse and update maven dependencies.
+  - Configure tomcat server to run the web application.
+  - Download and configure mongodb in port 27017.[If you want some customport or remote server, change the dbHosts value in DatabaseUtil.java.]
+  - Import song.json in song collection and musicplayer db which is present in Docs folder.
+  - Import user.json in user collection and musicplayer db which is present in Docs folder.
+  - Start Tomcat server and open http://hostname:port/musicplayer  in browser.
+    
+  **Command to import data into mongodb:**
+```sh
+mongodbimpoort -d musicplayer -c user/song --file user/song.json
+```
 
+
+**NOTE** : Default username and passsowrd of application is **sid**
