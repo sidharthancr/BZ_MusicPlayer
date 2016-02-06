@@ -1,0 +1,5 @@
+{ "_id" : { "$oid" : "56b62f0993f0c1e7da63f232" }, "title" : "Blast Loo", "album" : "Freedom", "rating" : 1.5, "src" : "/musicplayer/assets/songs/BlastLoo.mp3", "albumArt" : "/musicplayer/assets/img/musicIcon.jpeg" }
+{ "_id" : { "$oid" : "56b62f1d93f0c1e7da63f233" }, "title" : "No Labels", "album" : "Akon-No Labels", "rating" : 3.5, "src" : "/musicplayer/assets/songs/AkonNoLables.mp3", "albumArt" : "/musicplayer/assets/img/musicIcon.jpeg" }
+{ "_id" : { "$oid" : "56b62f2e93f0c1e7da63f234" }, "title" : "Right Now (Na Na Na)", "album" : "Freedom", "rating" : 1.5, "src" : "/musicplayer/assets/songs/RightNow.mp3", "albumArt" : "/musicplayer/assets/img/musicIcon.jpeg" }
+{ "_id" : { "$oid" : "56b62f6b93f0c1e7da63f235" }, "title" : "Party Animal", "album" : "Miscellaneous", "rating" : 4.5, "src" : "/musicplayer/assets/songs/PartyAnimal.mp3", "albumArt" : "/musicplayer/assets/img/musicIcon.jpeg" }
+{ "_id" : { "$oid" : "56b62f7f93f0c1e7da63f236" }, "title" : "Sorry, Blame It on Me", "album" : "Konvicted", "rating" : 1.5, "src" : "/musicplayer/assets/songs/SorryBlame.mp3", "albumArt" : "/musicplayer/assets/img/musicIcon.jpeg" }

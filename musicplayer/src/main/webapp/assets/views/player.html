@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+  <link href="../css/bootstrap-player.css" rel="stylesheet">
+  <link href="../css/custom.css" rel="stylesheet">
+  <script src="../js/jquery-1.11.1.min.js"></script>
+  <script src="../js/bootstrap-player.js"></script>
+  <script src="../bootstrap/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="../js/player.js"></script>
+  <title>BZ Player</title>
+</head>
+
+<body id="playerBody" display="hidden"> 
+  <div class="container tracksList" style="width:50%;float:left">
+    <div class="container" id="containerid">
+    <div class="sortdiv"><span class="fontcolor">Sort By:</span>
+    <span> <select class="selectpicker" data-style="btn-primary" name="filter" id="filter" onchange="loadajax(this.value)">
+     <option value="title">Title</option>
+     <option value="album">Album</option>
+     <option value="rating">Rating</option>
+     </select></span>
+</div>
+    </div>
+    <ul class="list-group listCustom">
+    </ul>
+  </div>
+  <div class="container playerContainer" style="width:45%;float:right">
+  <button type="button" onclick="logout()" class="btn btn-warning logout">Logout</button>
+    <div>
+      <img class="albumCover" id="albumCover" alt="Click tracks on left and Enjoy Songs" />
+    </div>
+    <audio controls id="playerTag">
+      <source id="player" src="" type="audio/mpeg" />
+      <a id="anchor" href="">Player</a>
+    </audio>
+    <div>
+      <span class="trackTitle"></span>
+      <br>
+      <span class="albumName"></span>
+    </div>
+  </div>
+
+</body>
+
+</html>

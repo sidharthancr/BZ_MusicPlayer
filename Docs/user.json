@@ -1,0 +1,1 @@
+{ "_id" : { "$oid" : "56b62e62ea4d8b801e8e7340" }, "name" : "sid", "email" : "sid@sid.com", "password" : "sid", "lastPlayedSong" : { "_id" : "56b62f1d93f0c1e7da63f233", "album" : "Akon-No Labels", "albumArt" : "/musicplayer/assets/img/musicIcon.jpeg", "duration" : 127.889432, "src" : "/musicplayer/assets/songs/AkonNoLables.mp3", "title" : "No Labels", "rating" : 3.5 } }
